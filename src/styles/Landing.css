@@ -1,0 +1,74 @@
+#landing {
+    /* border: red solid 5px; */
+    font-size: 7rem;
+    color: rgb(236, 236, 236);
+    background-color:rgb(33, 33, 33);
+    text-align: center;
+}
+
+#sketch {
+    position: relative;
+}
+
+.landing-picture {
+    /* border: red solid 5px; */
+    position: fixed;
+    width: 20%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 80vh;
+}
+
+.name {
+    /* border: red solid 5px; */
+    font-size: 20vmax;
+    line-height: 20vmax;
+}
+
+.tandoc {
+    top: 50%;
+}
+
+@media all and (max-width: 1100px) {
+    #landing {
+        /* border: red solid 5px; */
+        text-align: center;
+        display: flex;
+    }
+
+    #sketch {
+        display: absolute;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .greeting {
+        height: auto;
+    }
+
+    .landing-picture {
+        /* border: red solid 5px; */
+        position: fixed;
+        width: 20vw;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    .name {
+        font-size: 20vw;
+        line-height: 20vw;
+    }
+
+    .kyle {
+        top: 0;
+    }
+
+    .tandoc {
+        top: 5rem;
+    }
+}

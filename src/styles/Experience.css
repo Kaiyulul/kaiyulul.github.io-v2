@@ -1,0 +1,16 @@
+#experience {
+    /* border: red solid 5px; */
+    font-size: 3vh;
+    color: rgb(32, 32, 32);
+    background-color:rgb(236, 236, 236);
+    position: relative;
+}
+
+.exp-container {
+    padding: 5% 10%;
+}
+
+.extracurricular {
+    padding: 2%;
+    background-color: rgb(200, 200, 200);
+}

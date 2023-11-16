@@ -1,0 +1,6 @@
+#terrain {
+    /* border: rgba(33, 33, 33) solid 5px; */
+    max-height: 100vh;
+    margin: 10%;
+    overflow: hidden;
+}
